@@ -331,7 +331,6 @@ async def process_showdata_command(message: Message):
                  'команду /fillform'
         )
 
-
 # Этот хэндлер будет срабатывать на любые сообщения, кроме тех
 # для которых есть отдельные хэндлеры, вне состояний
 @dp.message(StateFilter(default_state))
